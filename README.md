@@ -2,7 +2,7 @@
 
 This repository contains an enriched spreadsheet version of the **Chamber Southwest Louisiana A-Z Business Directory Summary**.
 
-The original PDF summary was created by **Brandon LaVan** and is included as the source reference for this project.
+The original PDF summary was created by **Brandon LaVan** and is included as the source reference for this project. The PDF is original/source material that was not created by this repository owner.
 
 This version builds from that original PDF and converts the information into a more usable spreadsheet format for research, review, enrichment, and collaboration.
 
@@ -43,30 +43,36 @@ This repository is an enrichment and spreadsheet-conversion project derived from
 
 All credit for the original PDF compilation belongs to Brandon LaVan. Any added spreadsheet formatting, enrichment, cleanup, categorization, validation notes, or additional research should be treated as later project work layered on top of the original source document.
 
+See [NOTICE.md](NOTICE.md) for source and attribution notes.
+
 ## Repository Structure
 
 ```text
 chamber-swla-business-directory-enriched/
-│
-├── README.md
-├── original/
-│   └── Chamber_SWLA_a_z_business_directory_summary.pdf
-│
-├── working-files/
-│   └── chamber_swla_pdf_base_plus_enrichment.xlsx
-│
-├── export/
-│   └── chamber_swla_pdf_base_plus_enrichment.csv
-│
-└── notes/
-    └── changelog.md
+|
+|-- README.md
+|-- NOTICE.md
+|-- original/
+|   |-- README.md
+|   `-- Chamber_SWLA_a_z_business_directory_summary.pdf
+|
+|-- working-files/
+|   |-- README.md
+|   `-- chamber_swla_pdf_base_plus_enrichment.xlsx
+|
+|-- export/
+|   |-- README.md
+|   `-- chamber_swla_pdf_base_plus_enrichment.csv
+|
+`-- notes/
+    `-- changelog.md
 ```
 
 ## Files
 
 ### `/original`
 
-Contains the original PDF reference document.
+Contains the original PDF reference document. The PDF is source/reference material and was not created by this repository owner.
 
 ### `/working-files`
 
@@ -74,11 +80,15 @@ Contains the enriched spreadsheet version of the directory.
 
 ### `/export`
 
-Optional folder for CSV or text-based exports. These are useful because GitHub can compare CSV changes more easily than Excel files.
+Contains CSV or text-based exports. These are useful because GitHub can compare CSV changes more easily than Excel files.
 
 ### `/notes`
 
-Optional folder for project notes, changelogs, verification notes, and future cleanup plans.
+Contains project notes, changelogs, verification notes, and future cleanup plans.
+
+## Current Dataset Snapshot
+
+The initial CSV/XLSX working dataset contains 1,074 business rows, with 88 rows marked as enriched and 986 rows retained from the original PDF without appended enrichment data.
 
 ## Important Verification Note
 
@@ -155,6 +165,12 @@ This repository is not presented as an official Chamber Southwest Louisiana publ
 
 Always verify important business information before using it for outreach, research, marketing, reporting, or decision-making.
 
+## Licensing And Reuse
+
+The derived spreadsheet cleanup, formatting, enrichment notes, and repository documentation may be reused under CC BY 4.0 where legally permitted.
+
+The original PDF source reference was not created by this repository owner and retains its own source/creator attribution. Do not treat this repository as granting new rights to third-party source material.
+
 ## Project Status
 
 Working project.
@@ -171,4 +187,3 @@ Future improvements may include:
 * Manual review flags
 * CSV export for easier GitHub diffs
 * Separate tabs by business category or parish
-CC BY 4.0
