@@ -54,7 +54,7 @@ chamber-swla-business-directory-enriched/
 |-- NOTICE.md
 |-- original/
 |   |-- README.md
-|   `-- Chamber_SWLA_a_z_business_directory_summary.pdf
+|   `-- Chamber_SWLA_a_z_business_directory_summary (1).pdf
 |
 |-- working-files/
 |   |-- README.md
